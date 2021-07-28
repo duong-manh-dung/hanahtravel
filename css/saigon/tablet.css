@@ -1,0 +1,77 @@
+.saigon-banner {
+  width: 100%;
+  height: 700px;
+  background-image: url('../../images/saigon-banner.jpg');
+  background-size: cover;
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.saigon-title {
+  font-size: 3rem;
+  color: #810000;
+}
+
+.saigon-desc {
+  font-size: 1.5rem;
+  color: #8D2828;
+}
+
+.menu-items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid #1f3545;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #FDF6F0;
+  background-color: #0681ab;
+  padding: 10px 10px;
+}
+
+.item:hover {
+  border: 1px solid #0681ab;
+  background-color: #1f3545;
+}
+
+.place-posts, .food-posts, .people-posts {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.posts {
+  width: 90%;
+  height: 480px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.post-name {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.post-location {
+  width: 100%;
+  text-align: center;
+  font-size: .8rem;
+  position: absolute;
+  bottom: 10px;
+}
+
+.posts img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  margin-right: 20px;
+}

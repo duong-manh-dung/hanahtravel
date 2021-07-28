@@ -1,0 +1,77 @@
+.hanoi-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('../../images/hanoi-banner.jpg');
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hanoi-title {
+  color: #810000;
+}
+
+.hanoi-desc {
+  color: #8D2828;
+}
+
+.menu-items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid #1f3545;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #FDF6F0;
+  background-color: #0681ab;
+  /* background-color: #1f3545; */
+}
+
+.item:hover {
+  border: 1px solid #0681ab;
+  background-color: #1f3545;
+}
+
+.posts {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts:nth-child(2n) {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.post-name {
+  font-weight: 600;
+}
+
+.post-location {
+  font-size: .8rem;
+}
+
+.posts img {
+  width: 43%;
+  height: 150px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.posts:nth-child(2n) img {
+  width: 43%;
+  height: 150px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 0;
+}

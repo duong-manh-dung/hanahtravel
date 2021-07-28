@@ -1,0 +1,76 @@
+.main {
+  background-color: #fff;
+}
+
+.big-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('../../images/home-banner-mobile.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 50px 30px 0;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  color: #810000;
+}
+
+.banner-desc {
+  font-size: 1.5rem;
+  color: #8D2828;
+}
+
+.cities {
+  text-align: center;
+}
+
+.hanoi, .hue, .saigon {
+  width: 80%;
+  height: 250px;
+  margin: 30px auto;
+  border-radius: 5px;
+  position: relative;
+  background-size: cover;
+  box-shadow: 0 8px 21px -1px #000;
+}
+
+.hanoi {
+  background-image: url('../../images/hanoi-pic.jpg');
+}
+
+.hue {
+  background-image: url('../../images/hue-pic.jpg');
+}
+
+.saigon {
+  background-image: url('../../images/hcm-pic.jpg');
+}
+
+.short-intro {
+  position: absolute;
+  top: 35px;
+}
+
+.city-name {
+  color: #cb9433;
+}
+
+.short-desc {
+  color: #cb9433;
+}
+
+.see-now button {
+  padding: 10px 15px;
+  margin-top: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.see-now button:hover {
+  background-color:
+}
