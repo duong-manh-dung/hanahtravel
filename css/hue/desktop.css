@@ -43,7 +43,7 @@
   background-color: #1f3545;
 }
 
-.place-posts, .food-posts, .people-posts {
+.place-posts, .food-posts {
   width: 95%;
   margin: 0 auto;
   display: grid;
